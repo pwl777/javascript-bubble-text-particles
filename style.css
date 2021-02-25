@@ -1,0 +1,27 @@
+/* ------ CSS3 - HTML Canvas Particles - Bubble Text Animation Part 2 ------ */
+
+* {
+  /* Basic css reset rules */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow: hidden;
+  background: black;
+}
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(#4d71a5, #0a2449, #010710);
+}
+h1 {
+  text-align: center;
+  font-family: "Rammetto One", cursive; /* font-family: 'Fascinate Inline', cursive; |  font-family: "Rammetto One", cursive;  |  font-family: 'Codystar', cursive;  */
+  font-weight: 400;
+  font-size: 3.5rem;
+  color: rgb(255, 59, 82); /* rgb(189, 8, 29) | rgb(37, 211, 101)  */
+  text-shadow: 2px 3px 2px rgb(189, 8, 29);
+  filter: drop-shadow(-1px 6px 3px rgba(25, 36, 54, 0.5));
+}
